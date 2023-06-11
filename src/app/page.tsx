@@ -1,10 +1,10 @@
-import Title from "../components/Title";
-import styles from "./page.module.css";
+import Title from '../components/Title';
+import styles from './page.module.css';
 
 const Home = () => {
   return (
     <main className={styles.main}>
-      <Title apiRouteName="hello" />
+      <Title apiRouteName='hello' />
     </main>
   );
 };
